@@ -1,0 +1,274 @@
+body{
+    background: #F8FAFD;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1260px;
+    height: 1166px;
+}
+
+.card {
+  width: 282px;
+  height: 480px;
+  border-radius: 5px;
+  border: 0px solid #e3e6eb;
+  background: #fff;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+#book-img {
+  max-width: 201px;
+  height: 202px;
+  border-radius: 5px;
+}
+
+#book-name {
+  margin: 2px 0;
+  color: #000;
+  font-family: "Rubik";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#book-description {
+  margin: 0;
+  color: #757881;
+  font-family: "Noto Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#book-year {
+  color: #757881;
+  font-family: "Noto Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card-btn {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-top: 0;
+}
+
+#bookmark {
+  max-width: 120px;
+  height: 37px;
+  border-radius: 4px;
+  background: #ffd80d;
+}
+
+#more-info {
+  width: 120px;
+  height: 37px;
+  border-radius: 4px;
+  background: rgba(13, 117, 255, 0.05);
+  color: #0D75FF;
+}
+
+.read {
+  margin: 0 auto;
+  margin: 0px 0px 13px;
+  padding: 0;
+  text-align: center;
+}
+
+#read-btn {
+  padding: 5px 100px;
+  max-width: 246px;
+  height: 37px;
+  border-radius: 4px;
+  background: #75828a;
+  color: white;
+}
+
+/*  */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1259px;
+    height: 69px;
+}
+
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+#search{
+    width: 670px;
+    height: 48px;
+    border-radius: 30px;
+    border: 0px solid #E3E6EB;
+    background: #F8FAFD;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.10);
+}
+
+#search::placeholder{
+    position: relative;
+    left: 8%;
+}
+
+.search-img{
+    position: relative;
+    margin-right: -40px;
+}
+
+.filter-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2px;
+    max-width: 1259px;
+    height: 56px;
+    border: 0px solid #E3E6EB;
+    background: #FFF;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.main{
+    display: flex;
+}
+
+.bookmark-box{
+    width: 268px;
+    height: 1038px;
+    flex-shrink: 0;
+    border: 0px solid #E3E6EB;
+    background: #FFF;
+    box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.10);
+}
+
+.bookmark-title{
+    padding: 25px 25px 0px;
+    color: #000;
+    font-family: "Rubik";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bookmark-text{
+    padding: 0 25px;
+    width: 218px;
+    color: #000;
+    font-family: "Rubik";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155.6%; 
+}
+
+
+
+.cards{
+    margin: 40px;
+}
+
+.marked{
+  padding: 15px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px auto;
+  width: 218px;
+  height: 72px;
+  border-radius: 4px;
+  background: #F8FAFD;
+}
+
+.marked-title{
+  margin: 5px auto;
+  color: #000;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.marked-text{
+  margin: 5px auto;
+  color: #757881;
+  font-family: "Noto Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.marked-signs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+input{
+  padding-left: 60px;
+}
+
+.modal-header{
+  width: 552.472px;
+  height: 77.46px;
+  background: #F8FAFD;
+}
+
+.modal-content{
+  position: absolute;
+  left: 100%;
+  width: 553px;
+  height: 100vh;
+  background: #FFF;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.modal-title{
+  width: 257.44px;
+  height: 31.895px;
+  color: #222531;
+  font-family: "Rubik";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.modal-img{
+  margin: 50px 120px;
+  width: 228.962px;
+  height: 299.588px;
+  border-radius: 5px;
+}
+
+.modal-text{
+  width: 470.455px;
+  height: 275.666px;
+  color: #58667E;
+  font-family: "Rubik";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.3%; 
+}
+
+.modal-info, .modal-body{
+  padding: 0 50px;
+}
+
+.modal-footer{
+  background: #F8FAFD;
+}
